@@ -1,8 +1,8 @@
 from torch.nn import Conv2d, Sequential, ModuleList, ReLU
 
 from temprepo.vision.nn.mb_tiny import Mb_Tiny
-from temprepo.temprepo.temprepo.vision.ssd.config import fd_config as config
-from temprepo.temprepo.vision.ssd.predictor import Predictor
+from temprepo.vision.ssd.config import fd_config as config
+from temprepo.vision.ssd.predictor import Predictor
 from temprepo.vision.ssd.ssd import SSD
 
 
